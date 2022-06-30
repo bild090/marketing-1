@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  #FF6F3C;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+
+.brand {
+    font-size: 60px !important;
+    line-height: 58px;
+  }
+
+.language {
+    font-weight: 600;
+    cursor: pointer;
+}

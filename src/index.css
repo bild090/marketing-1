@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Sawarabi Mincho', serif;
+}
+
+body {
+  height: 100%;
+  color: #383f4d;
+  background-color: rgb(253, 253, 253);
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.brand {
+  font-size: 45px;
+  line-height: 58px;
+  font-weight: bold;
+  margin-inline-end: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  padding: 22px 1em;
+  color: #383f4d;
+  text-decoration: none;
+}
+
+.spacer {
+  flex: 1;
+}
+
