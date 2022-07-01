@@ -6,7 +6,7 @@ const Header = (props) => {
 
   return (
     <div className="header">
-      <h1 className="brand mx-5"><FormattedMessage id="brand_name" /></h1>
+      <h1 className="brand"><FormattedMessage id="brand_name" /></h1>
       <div className="language px-5" onClick={props.handleChange}><FormattedMessage id="language" /></div>
     </div>
   );

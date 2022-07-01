@@ -10,9 +10,18 @@
 .brand {
     font-size: 60px !important;
     line-height: 58px;
+    margin-right: 3rem!important;
+    margin-left: 3rem!important;
   }
 
 .language {
     font-weight: 600;
     cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+    .brand {
+        font-size: 40px !important;
+        margin: 10px 15px !important;
+    }
 }

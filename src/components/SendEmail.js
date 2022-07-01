@@ -41,23 +41,9 @@ const SendEmail = () => {
             />
             <input
                 type='text'
-                name='to_name'
-                placeholder='to name'
-                value={toSend.to_name}
-                onChange={handleChange}
-            />
-            <input
-                type='text'
                 name='message'
                 placeholder='Your message'
                 value={toSend.message}
-                onChange={handleChange}
-            />
-            <input
-                type='text'
-                name='reply_to'
-                placeholder='Your email'
-                value={toSend.reply_to}
                 onChange={handleChange}
             />
             <button type='Submit'>Submit</button>
